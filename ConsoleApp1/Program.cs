@@ -23,6 +23,7 @@ namespace ConsoleApp1
         static long Sum(int x, int y)
         {
             Console.WriteLine("-----------------begin wait -----------------");
+            Console.WriteLine("~~~~~~~~~~~~~~~~~~~test~~~~~~~~~~~~~~~~~~~~~~~");
             Thread.Sleep(1000);
             return x + y;
         }
